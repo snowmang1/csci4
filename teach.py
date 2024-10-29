@@ -1,40 +1,19 @@
-import math
-# this is a python file.
-squid = 0 # name: squid, value: 0, type: Number
-asdf = 100 # name: asdf, value: 100, type: Number
+#python file, itteration
+#for looping
 
-# types: Numbers, Letters, Booleans, Collections
+S = [1,2,3]
+# 1 + 2 + 3 = 6
 
-# binding: name (collection of symbols),
-#          value,
-#          type,
+def summate(col):
+    s = 0
+    for x in col:
+        s = s + x
+    return s
 
-binding1 = "hello" # name: binding1, value: hello, type: Collection<letter>
-binding2 = "world"
-#print(binding1, binding2)
+def count_to_ten():
+    s = []
+    for x in range(0,9):
+        s.append(x)
+    return s
 
-# keyword def, name, parameters :
-def f(a,b):
-    c = a + b
-    return c
-# name: f, type: Number, Parameters: (a, b)
-# Logic: line 17
-
-print("c equals", f(5,5))
-
-def fs(a,b):
-    return a - b
-
-print("fs is", fs(10,5))
-
-def pyth(a,b):
-    s1 = a**2
-    s2 = b**2
-    c  = math.sqrt(s1 + s2)
-    return c
-
-def pyth1(a,b):
-    return math.sqrt(a**2 + b**2)
-
-print("pyth of 4 4", pyth(4,4))
-print("pyth1 of 4 4", pyth1(4,4))
+print(count_to_ten())
