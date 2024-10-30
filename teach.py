@@ -16,4 +16,4 @@ def count_to_ten():
         s.append(x)
     return s
 
-print(count_to_ten())
+print(summate(S))
