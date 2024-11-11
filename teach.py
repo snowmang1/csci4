@@ -1,19 +1,15 @@
-#python file, itteration
-#for looping
+# control flow
+import random
 
-S = [1,2,3]
-# 1 + 2 + 3 = 6
+x = random.randint(0,10)
+y = x/2
+c = x**2
 
-def summate(col):
-    s = 0
-    for x in col:
-        s = s + x
-    return s
+def maybe(x,y,z):
+    if z:
+        return "x is zero"
+    else:
+        return "x is not zero"
 
-def count_to_ten():
-    s = []
-    for x in range(0,9):
-        s.append(x)
-    return s
-
-print(summate(S))
+print(maybe(x, y, c==x and y==x))
+# print(maybe(x, y, x==0))
