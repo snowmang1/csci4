@@ -1,15 +1,22 @@
-# control flow
-import random
+# python teaching file
 
-x = random.randint(0,10)
-y = x/2
-c = x**2
+# python variable name=a, value=5
+a = 5
 
-def maybe(x,y,z):
-    if z:
-        return "x is zero"
-    else:
-        return "x is not zero"
+# function
+def sum(a,b):
+    c = a+b # 1 tab right (4 spaces)
+    return c
 
-print(maybe(x, y, c==x and y==x))
-# print(maybe(x, y, x==0))
+# function envocation
+print(sum(1,1)) # print the number 2
+
+# array (homogeneous, finite, collections)
+array_1 = [0,1,2,3,4,5]
+
+# loops
+for i in array_1:
+    print(i) # 0,1,2,3,4,5
+
+for i in array_1:
+    print(i+2) # 0+2,1+2,2+2,3+2,4+2,5+2
