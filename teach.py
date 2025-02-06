@@ -1,22 +1,25 @@
 # python teaching file
 
-# python variable name=a, value=5
-a = 5
+# Lab 2 part 2
+# create a variable e where the value is 5^5
+x = 5**5
+print(x)
 
-# function
-def sum(a,b):
-    c = a+b # 1 tab right (4 spaces)
-    return c
+# create a variable with name squid and value is a string
+squid = "a string"
+print("squid is ", squid)
 
-# function envocation
-print(sum(1,1)) # print the number 2
+# create a variable with name 'a' and value is a float (real number)
+a = 1.5
+print("value of a: ", a)
 
-# array (homogeneous, finite, collections)
-array_1 = [0,1,2,3,4,5]
+# create a variable where the value is a collection [2,3,4,5,6,1]
+col = [2,3,4,5,6,1]
+print("value of col: ", col)
 
-# loops
-for i in array_1:
-    print(i) # 0,1,2,3,4,5
+# create a function that takes 2 inputs and gives a single output which is the
+# sum of the two inputs
+def sum(x,y):
+    return x+y
 
-for i in array_1:
-    print(i+2) # 0+2,1+2,2+2,3+2,4+2,5+2
+l = lambda x,y: x+y
