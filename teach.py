@@ -1,13 +1,11 @@
-# python teaching file
-# Control flow
+# python hello world
 
-def squid(x,y):
-    if x==1:
-        if x==y:
-            print("hello")
-        else:
-            print("nothing")
-    if x>1:
-        print("go away")
+hello = "world"
 
-squid(2)
+this_number = "42"
+
+this_number = int(this_number) + 5
+
+this_number + 1
+
+print(this_number, 5)
