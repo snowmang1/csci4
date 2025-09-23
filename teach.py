@@ -1,13 +1,9 @@
-# python teaching file
-# Control flow
+# python code
+import array as arr
 
-def squid(x,y):
-    if x==1:
-        if x==y:
-            print("hello")
-        else:
-            print("nothing")
-    if x>1:
-        print("go away")
+a = arr.array(
+    'h', # opcode for unsigned short
+    26
+)
 
-squid(2)
+print("hello world")
