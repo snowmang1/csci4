@@ -1,0 +1,9 @@
+[0] Config.pm:308> INFO - This is Biber 2.20
+[0] Config.pm:311> INFO - Logfile is 'latex_output/notes.blg'
+[35] biber-darwin:340> INFO - === Tue Aug  5, 2025, 14:11:14
+[43] Biber.pm:420> INFO - Reading 'latex_output/notes.bcf'
+[82] Biber.pm:991> INFO - Using all citekeys in bib section 0
+[90] Biber.pm:4463> INFO - Processing section 0
+[96] Biber.pm:4654> INFO - Looking for bibtex file 'bib/refs.bib' for section 0
+[191] Utils.pm:410> ERROR - Cannot find 'bib/refs.bib'!
+[191] Biber.pm:136> INFO - ERRORS: 1
