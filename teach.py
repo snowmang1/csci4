@@ -1,11 +1,21 @@
-# lucas numbers
-def lucas(named_variable):
-    omar = [2, 1]
-    # 0 -> 2, 1 -> 1
-    for n in range(2, named_variable):
-        # for n which is equal to 2, 3, 4, 5
-        omar.append(omar[n - 1] + omar[n - 2])
-    return omar
+# lets build a queue
+
+l = []
 
 
-print(lucas(1000000000))
+def push_q(s, e):
+    s.append(e)
+    return s
+
+
+def pop_q(s):
+    return s.pop(0)
+
+
+l = push_q(l, 1)
+l = push_q(l, 2)
+
+print(l)
+
+print(pop_q(l))
+print(pop_q(l))

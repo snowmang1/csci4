@@ -1,0 +1,72 @@
+\documentclass[12pt]{article}
+
+\title{Simple Calculator}
+\author{
+	Evan M Drake \\
+	\texttt{drakeev@butte.edu}
+}
+
+
+\usepackage{snow-preamble}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+	\maketitle
+	\tableofcontents
+
+	\newpage
+
+	%% body start
+	\section{Interface}
+		\indent The program will take two numbers, calculating some decimal value.
+		That is any equation of the form $x + y$ should be evaluated,
+			so long as $x$ \& $y$ are natural numbers.
+		There will be no way for the user to inert values while the program is running.
+		In particular the evaluated values must be in the code itself as two variables as below.
+
+		\begin{lstlisting}[style=pseudocode, language=Python]
+x = <left number>
+y = <right number>
+o = <operation>
+
+def evaluate(x,y):
+	return c
+	# such that you use the correct
+	# operation on x and y resulting in c
+		\end{lstlisting}
+
+	\section{Evaluation}
+		\indent You should try to figure out a way to check what operation is desired.
+		That is you may not have a different function for each binary arithmetic operation.
+		You must find a way to dynamically detect what operation is desired.
+		Hint: you might keep your third variable as a character and simply make a decision based on that character.
+	
+	\section{Testing}
+		\indent you should be able to evaluate the expressions below:
+		\begin{enumerate}
+			\item $5 + 5$
+			\item $1 + (-1)$
+			\item $0 - (-1)$
+			\item $\frac{0}{5}$
+			\item $\frac{4}{2}$
+			\item $2 * 1$
+			\item $3 * 2$
+		\end{enumerate}
+
+	%% body finish
+
+	\nocite{*}
+
+	\newpage % bib
+	\backmatter
+	\addcontentsline{toc}{section}{References}
+	\printbibliography
+
+	\newpage % index
+	\printindex
+
+	\newpage % appendices
+	\appendix
+
+\end{document}
+
