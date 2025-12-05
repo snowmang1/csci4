@@ -1,0 +1,5 @@
+[0] Config.pm:308> INFO - This is Biber 2.20
+[0] Config.pm:311> INFO - Logfile is 'latex_output/euclid_dis.blg'
+[32] biber-darwin:340> INFO - === Thu Nov 20, 2025, 16:04:50
+[119] Utils.pm:410> ERROR - Cannot find 'euclid_dis.bcf'!
+[120] Biber.pm:136> INFO - ERRORS: 1
