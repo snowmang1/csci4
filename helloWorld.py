@@ -4,6 +4,7 @@ happyFace = [1,2,3,4]
 smily = numpy.array(happyFace)
 
 print(smily)
+# change
 
 happyChar = ['a','b','c','d']
 happyChar1 = ["words", "to", "speak"]
