@@ -1,15 +1,10 @@
-import numpy
+import random
 
-happyFace = [1,2,3,4]
-smily = numpy.array(happyFace)
+dice = [1,2,3,4,5,6]
 
-print(smily)
-# change
+# random is a library where choice is a function like print
+# choice works on sequences of which dice is one (list)
+# therefore choice works on dice
+print(random.choice(dice))
 
-happyChar = ['a','b','c','d']
-happyChar1 = ["words", "to", "speak"]
-happyBools = [True, False, True]
-happyBools2 = [[1,2,3], [True, False, True], ["words"]]
-
-print("hello world")
-print(happyBools2)
+print(dice)
